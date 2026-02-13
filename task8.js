@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", () => {
   let addBut = document.querySelector("[data-js='t8-add']");
   let mulBut = document.querySelector("[data-js='t8-mul']");
   let out = document.querySelector("[data-js='t8-out']");
-  let sound = new Audio("./1234.mp3");
+  let sound = new Audio("./67.mp3");
   function playSound(soun) {
     soun.currentTime = 0;
     soun.play();

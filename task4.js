@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", () => {
   let plusBut = document.querySelector("[data-js='t4-plus']");
   let resetBut = document.querySelector("[data-js='t4-reset']");
   let outField = document.querySelector("[data-js='t4-out']");
-  let sound = new Audio("./1234.mp3");
+  let sound = new Audio("./67.mp3");
   function playSound(soun) {
     soun.currentTime = 0;
     soun.play();
